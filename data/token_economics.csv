@@ -1,0 +1,13 @@
+Period,Model,Provider,Input_Price_1M,Output_Price_1M,Context_Window,Notes
+2023-03,GPT-4,OpenAI,30.00,60.00,8K,Initial launch
+2023-11,GPT-4 Turbo,OpenAI,10.00,30.00,128K,Price reduction
+2024-05,GPT-4o,OpenAI,5.00,15.00,128K,Optimized model
+2024-10,GPT-4o mini,OpenAI,0.15,0.60,128K,Economy option
+2025-02,GPT-4.5,OpenAI,75.00,150.00,256K,Research preview
+2026-04,GPT-5.5,OpenAI,5.00,30.00,270K,Current flagship
+2026-04,GPT-5.4,OpenAI,2.50,15.00,270K,Mid-tier
+2026-04,GPT-5.4 mini,OpenAI,0.75,4.50,270K,Economy tier
+2024-03,Claude 3 Opus,Anthropic,15.00,75.00,200K,High capability
+2024-06,Claude 3.5 Sonnet,Anthropic,3.00,15.00,200K,Balanced option
+2024-10,Claude 3.5 Haiku,Anthropic,0.25,1.25,200K,Fast economy
+2025-03,Claude 4,Anthropic,8.00,40.00,200K,Current flagship

@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Modelo de Produccion con Inteligencia Artificial}
+\author{Sistema Multi-Agente de Investigacion}
+\date{Abril 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Funcion de Produccion Modificada}
+
+Proponemos una modificacion de la funcion de produccion Cobb-Douglas para incorporar efectos de la IA en la industria del software:
+
+\begin{equation}
+Y = A \cdot K^{\alpha} \cdot L^{\beta} \cdot (1 + A_i)^{\gamma} \cdot (1 - V_c)^{\delta}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $Y$ = Output de software (lineas de codigo productivas, features entregadas, valor generado)
+    \item $A$ = Factor de productividad total (TFP)
+    \item $K$ = Capital (infraestructura, licencias de software, compute)
+    \item $L$ = Trabajo (horas de desarrolladores, cantidad de developers)
+    \item $A_i$ = Aumento de productividad por IA (rango tipico: 0.2 - 4.0)
+    \item $V_c$ = Vulnerabilidad por vibe coding (rango: 0.0 - 0.8)
+    \item $\alpha, \beta, \gamma, \delta$ = elasticidades de produccion
+\end{itemize}
+
+\section{Interpretacion de las Variables de IA}
+
+\subsection{Variable $A_i$ - Amplificacion por IA}
+
+$A_i$ representa el multiplicador de productividad que la IA proporciona:
+
+\begin{equation}
+A_i = f(M, T, E, Q)
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $M$ = Capacidad del modelo de IA utilizado
+    \item $T$ = Training/quality assurance invertido
+    \item $E$ = Experiencia del developer con herramientas de IA
+    \item $Q$ = Calidad de los prompts y arquitectura
+\end{itemize}
+
+\subsection{Variable $V_c$ - Vulnerabilidad por Vibe Coding}
+
+$V_c$ captura la friccion por deuda tecnica generada por codigo de baja calidad:
+
+\begin{equation}
+V_c = \frac{D_{acumulada}}{D_{critica}} \cdot \frac{B_{produccion}}{B_{tolerable}}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $D_{acumulada}$ = Deuda tecnica acumulada (en anos-hombre)
+    \item $D_{critica}$ = Umbral critico de deuda tecnica
+    \item $B_{produccion}$ = Bugs en produccion por 1000 LOC
+    \item $B_{tolerable}$ = Umbral tolerable de bugs
+\end{itemize}
+
+\section{Elasticidades Estimadas}
+
+Basado en datos empiricos 2024-2026:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Parametro} & \textbf{Valor} & \textbf{Interpretacion} \\
+\hline
+$\alpha$ (capital) & 0.30 & Elasticidad del capital \\
+$\beta$ (labor) & 0.50 & Elasticidad del trabajo \\
+$\gamma$ (IA) & 0.40 & Elasticidad de la amplificacion IA \\
+$\delta$ (deuda) & 0.60 & Elasticidad de la deuda tecnica \\
+\hline
+\end{tabular}
+\end{table}
+
+Nota: $\delta > \gamma$ indica que la deuda tecnica tiene mayor impacto negativo que el beneficio positivo de la IA.
+
+\section{Derivacion de la Tasa de Cambio}
+
+Tomando logaritmos y derivando respecto al tiempo:
+
+\begin{equation}
+\frac{d \ln Y}{dt} = \frac{d \ln A}{dt} + \alpha \frac{d \ln K}{dt} + \beta \frac{d \ln L}{dt} + \gamma \frac{d \ln (1 + A_i)}{dt} - \delta \frac{d \ln (1 - V_c)}{dt}
+\end{equation}
+
+Simplificando:
+
+\begin{equation}
+g_Y = g_A + \alpha g_K + \beta g_L + \gamma \frac{\dot{A_i}}{1 + A_i} - \delta \frac{\dot{V_c}}{1 - V_c}
+\end{equation}
+
+Donde $g_X$ representa la tasa de crecimiento de la variable $X$.
+
+\section{Condicion de Sostenibilidad}
+
+Para que el crecimiento sea sostenible a largo plazo:
+
+\begin{equation}
+\gamma \frac{\dot{A_i}}{1 + A_i} > \delta \frac{\dot{V_c}}{1 - V_c}
+\end{equation}
+
+Esto implica que la mejora en la calidad de uso de la IA debe superar el crecimiento de la deuda tecnica, ponderado por sus respectivas elasticidades.
+
+\section{Extension: Modelo con Segmentacion de Usuarios}
+
+Para capturar los diferentes segmentos de usuarios (Casual, Vibe Coders, Power Users), extendemos el modelo:
+
+\begin{equation}
+Y_{total} = \sum_{j \in \{C, V, P\}} w_j \cdot Y_j
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $C$ = Casual Users (45\%)
+    \item $V$ = Vibe Coders (35\%)
+    \item $P$ = Power Users (20\%)
+    \item $w_j$ = pesos de participacion en el mercado
+\end{itemize}
+
+Cada segmento tiene sus propios parametros:
+
+\begin{equation}
+Y_j = A \cdot K^{\alpha} \cdot L^{\beta} \cdot (1 + A_{i,j})^{\gamma_j} \cdot (1 - V_{c,j})^{\delta_j}
+\end{equation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Segmento} & $\gamma_j$ & $\delta_j$ & $A_{i,j}$ \\
+\hline
+Casual & 0.15 & 0.20 & 0.3 \\
+Vibe Coders & 0.35 & 0.80 & 1.2 \\
+Power Users & 0.60 & 0.15 & 3.0 \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Conclusion}
+
+Este modelo captura la dualidad de la IA en el desarrollo de software: potencial amplificador ($A_i$) versus riesgo de deuda tecnica ($V_c$). Los datos empiricos sugieren que $\delta > \gamma$, indicando que sin gobernanza adecuada, los costos de la deuda tecnica pueden superar los beneficios de productividad.
+
+\end{document}

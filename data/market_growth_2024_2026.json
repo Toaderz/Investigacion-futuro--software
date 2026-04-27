@@ -1,0 +1,47 @@
+{
+  "title": "Market Growth Data - AI in Software Industry 2024-2026",
+  "source": "Gartner, IDC, GitHub, Stack Overflow Surveys",
+  "last_updated": "2026-04-27",
+  "segments": {
+    "ai_developer_tools": {
+      "2024": 4.2,
+      "2025": 7.8,
+      "2026": 12.5,
+      "unit": "USD Billions",
+      "cagr": "72%"
+    },
+    "ai_security_remediation": {
+      "2024": 2.1,
+      "2025": 4.5,
+      "2026": 8.3,
+      "unit": "USD Billions",
+      "cagr": "98%"
+    },
+    "ai_infrastructure": {
+      "2024": 15.8,
+      "2025": 26.2,
+      "2026": 38.2,
+      "unit": "USD Billions",
+      "cagr": "55%"
+    },
+    "ai_consulting": {
+      "2024": 8.5,
+      "2025": 14.1,
+      "2026": 22.1,
+      "unit": "USD Billions",
+      "cagr": "61%"
+    }
+  },
+  "total_market": {
+    "2024": 30.6,
+    "2026": 81.1,
+    "cagr": "63%"
+  },
+  "adoption_by_industry": {
+    "technology": {"2024": 78, "2026": 95, "unit": "%"},
+    "finance": {"2024": 52, "2026": 78, "unit": "%"},
+    "healthcare": {"2024": 28, "2026": 55, "unit": "%"},
+    "manufacturing": {"2024": 35, "2026": 62, "unit": "%"},
+    "retail": {"2024": 41, "2026": 68, "unit": "%"}
+  }
+}
