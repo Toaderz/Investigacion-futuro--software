@@ -1,0 +1,24 @@
+{
+  "titulo": "Futuro de la Industria del Software ante el crecimiento exponencial de la IA",
+  "fecha_inicio": "2026-04-27T14:11:53.123086",
+  "fases": [
+    {
+      "id": 1,
+      "nombre": "Research Inicial - Datos y Papers Academicos",
+      "agente": "Research Specialist",
+      "tarea": "Buscar y descargar:\n1. Paper 'The Simple Macroeconomics of AI' de Acemoglu\n2. Datos de adopcion de IA en software 2024-2026\n3. Roadmaps de OpenAI, Anthropic, Meta\n4. Estadisticas de mercado de software\n5. Datos sobre vibe coding y deuda tecnica",
+      "entregables": [
+        "papers/acemoglu_macro_ai.pdf",
+        "data/market_growth_2024_2026.json",
+        "data/ai_adoption_stats.json",
+        "papers/competitor_roadmaps.md"
+      ],
+      "dependencias": [],
+      "estado": "pendiente",
+      "completado": false
+    }
+  ],
+  "estado_general": "iniciado",
+  "fase_actual": 1,
+  "notas": "Plan creado. Esperando ejecucion de Fase 1."
+}
