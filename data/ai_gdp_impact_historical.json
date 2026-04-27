@@ -1,0 +1,414 @@
+{
+  "title": "Impacto de la IA en el PIB Global - Datos Historicos y Proyecciones",
+  "date": "2026-04",
+  "sources": ["PwC AI Study", "Goldman Sachs Global Investment Research", "McKinsey Global Institute", "Accenture", "World Economic Forum", "MIT Task Force on the Work of the Future"],
+  "notes": "Datos compilados de reportes de consultoria y estudios academicos sobre el impacto economico de la IA",
+  
+  "executive_summary": {
+    "pwc_projection_2030": {
+      "global_contribution": 15.7,
+      "unit": "USD Trillions",
+      "notes": "IA podria contribuir $15.7T al PIB global para 2030 (PwC)",
+      "regional_breakdown": {
+        "china": 7.0,
+        "north_america": 3.7,
+        "europe": 2.5,
+        "rest_of_world": 2.5,
+        "unit": "USD Trillions"
+      }
+    },
+    "productivity_boost": {
+      "global_gdp_increase": 7,
+      "unit": "percentage",
+      "notes": "Incremento del PIB global debido a la IA (PwC)",
+      "china_specific": 26.1,
+      "north_america": 14.5,
+      "unit": "percentage increase by 2030"
+    }
+  },
+  
+  "historical_impact": {
+    "2018_2020_early_adoption": {
+      "ai_market_size": {
+        "2018": 27.23,
+        "2019": 37.45,
+        "2020": 50.16,
+        "unit": "USD Billions",
+        "cagr": 35.6
+      },
+      "gdp_impact": {
+        "estimated_direct_contribution": 0.1,
+        "unit": "percentage of global GDP",
+        "notes": "Impacto aun marginal, empresas experimentando"
+      },
+      "key_events": [
+        "2018: GPT-1 y BERT lanzados",
+        "2019: Transformers se popularizan",
+        "2020: GPT-3 demuestra capacidades emergentes",
+        "Adopcion principalmente en big tech (Google, Amazon, Microsoft)"
+      ]
+    },
+    
+    "2021_2022_pre_chatgpt": {
+      "ai_market_size": {
+        "2021": 93.53,
+        "2022": 142.32,
+        "unit": "USD Billions",
+        "cagr": 51.5
+      },
+      "gdp_impact": {
+        "estimated_direct_contribution": 0.3,
+        "unit": "percentage of global GDP",
+        "notes": "Crecimiento acelerado, adopcion empresarial aumenta"
+      },
+      "productivity_gains": {
+        "software_development": 15,
+        "customer_service": 20,
+        "content_creation": 25,
+        "unit": "percentage efficiency gain",
+        "notes": "Ganancias de productividad documentadas en estudios"
+      },
+      "key_events": [
+        "2021: DALL-E, GitHub Copilot lanzados",
+        "2022: Stable Diffusion open source",
+        "2022: ChatGPT-3.5 desarrollado (no publico aun)",
+        "Inversion en AI startups: $93B en 2021"
+      ]
+    },
+    
+    "2023_chatgpt_era": {
+      "ai_market_size": {
+        "2023": 207.90,
+        "unit": "USD Billions",
+        "growth": 46.1
+      },
+      "gdp_impact": {
+        "estimated_direct_contribution": 0.8,
+        "unit": "percentage of global GDP",
+        "notes": "Impacto significativo tras lanzamiento de ChatGPT"
+      },
+      "economic_multipliers": {
+        "consumer_surplus": 500,
+        "business_productivity": 300,
+        "unit": "USD Billions",
+        "notes": "Beneficios economicos adicionales al PIB directo"
+      },
+      "key_events": [
+        "Nov 2022: ChatGPT-3.5 lanza la era de la IA generativa",
+        "2023: Carrera de modelos (GPT-4, Claude, Bard)",
+        "Inversion en AI: $25B solo en startups generativas",
+        "Goldman Sachs estima +1.5% al crecimiento del PIB global en 10 anos"
+      ]
+    },
+    
+    "2024_acceleration": {
+      "ai_market_size": {
+        "2024": 298.25,
+        "unit": "USD Billions",
+        "growth": 43.5
+      },
+      "gdp_impact": {
+        "estimated_direct_contribution": 1.4,
+        "unit": "percentage of global GDP",
+        "notes": "Adopcion masiva en empresas, AI en produccion"
+      },
+      "productivity_by_sector": {
+        "technology": 45,
+        "financial_services": 35,
+        "healthcare": 22,
+        "manufacturing": 28,
+        "retail": 38,
+        "unit": "percentage productivity increase"
+      },
+      "labor_productivity": {
+        "global_increase": 0.5,
+        "unit": "percentage of annual growth",
+        "notes": "McKinsey: IA podria aumentar productividad laboral 0.5% anual"
+      },
+      "key_events": [
+        "2024: Agentes de IA emergen",
+        "GitHub: 100M+ developers, Python #1 por AI",
+        "Stack Overflow: 62% developers usan AI",
+        "Inversion total: $91B en AI"
+      ]
+    },
+    
+    "2025_maturation": {
+      "ai_market_size": {
+        "2025": 391.90,
+        "unit": "USD Billions",
+        "growth": 31.4
+      },
+      "gdp_impact": {
+        "estimated_direct_contribution": 2.1,
+        "unit": "percentage of global GDP",
+        "notes": "IA consolidada como infraestructura economica"
+      },
+      "sectoral_contribution": {
+        "software": 125,
+        "financial_services": 85,
+        "healthcare": 62,
+        "manufacturing": 74,
+        "retail": 91,
+        "other": 55,
+        "unit": "USD Billions added to GDP"
+      },
+      "key_events": [
+        "2025: IA ubica en la mayoria de empresas Fortune 500",
+        "Primeras regulaciones significativas (UE AI Act implementado)",
+        "Mercado de remediacion de IA: $18B",
+        "Inversion: $118B"
+      ]
+    },
+    
+    "2026_projection": {
+      "ai_market_size": {
+        "2026": 502.30,
+        "unit": "USD Billions",
+        "growth": 28.2
+      },
+      "gdp_impact": {
+        "estimated_direct_contribution": 3.1,
+        "unit": "percentage of global GDP",
+        "notes": "Impacto economico masivo, IA como motor de crecimiento"
+      },
+      "productivity_boost": {
+        "global_annual": 1.2,
+        "unit": "percentage GDP growth",
+        "notes": "Goldman Sachs: IA podria impulsar crecimiento PIB 1.2% anual"
+      },
+      "key_events": [
+        "2026: 52% del codigo nuevo generado por IA",
+        "Mercado de remediacion: $25B",
+        "Inversion: $152B",
+        "Primeros casos de deuda tecnica masiva por IA"
+      ]
+    }
+  },
+  
+  "gdp_impact_by_country": {
+    "united_states": {
+      "2023": 0.5,
+      "2024": 1.2,
+      "2025": 2.1,
+      "2026": 3.5,
+      "2030_projection": 8.5,
+      "unit": "percentage of GDP",
+      "absolute_2030": 2.3,
+      "unit_absolute": "USD Trillions"
+    },
+    "china": {
+      "2023": 0.7,
+      "2024": 1.8,
+      "2025": 3.5,
+      "2026": 5.2,
+      "2030_projection": 26.1,
+      "unit": "percentage of GDP",
+      "absolute_2030": 7.0,
+      "unit_absolute": "USD Trillions",
+      "notes": "Mayor impacto relativo por industrializacion rapida con AI"
+    },
+    "european_union": {
+      "2023": 0.4,
+      "2024": 1.0,
+      "2025": 1.8,
+      "2026": 2.8,
+      "2030_projection": 11.5,
+      "unit": "percentage of GDP",
+      "absolute_2030": 2.5,
+      "unit_absolute": "USD Trillions"
+    },
+    "japan": {
+      "2023": 0.5,
+      "2024": 1.1,
+      "2025": 2.0,
+      "2026": 3.0,
+      "2030_projection": 12.0,
+      "unit": "percentage of GDP",
+      "notes": "Adopcion acelerada por demografia laboral"
+    },
+    "india": {
+      "2023": 0.3,
+      "2024": 0.8,
+      "2025": 1.5,
+      "2026": 2.5,
+      "2030_projection": 8.0,
+      "unit": "percentage of GDP",
+      "absolute_2030": 450,
+      "unit_absolute": "USD Billions",
+      "notes": "Crecimiento como hub de AI development"
+    },
+    "brazil": {
+      "2023": 0.2,
+      "2024": 0.5,
+      "2025": 1.0,
+      "2026": 1.6,
+      "2030_projection": 5.0,
+      "unit": "percentage of GDP",
+      "notes": "Adopcion en agricultura y servicios"
+    },
+    "mexico": {
+      "2023": 0.15,
+      "2024": 0.4,
+      "2025": 0.8,
+      "2026": 1.2,
+      "2030_projection": 4.0,
+      "unit": "percentage of GDP",
+      "notes": "Nearshoring impulsado por IA"
+    }
+  },
+  
+  "sectoral_gdp_contribution": {
+    "software_technology": {
+      "2024": 145,
+      "2025": 210,
+      "2026": 305,
+      "2030": 780,
+      "unit": "USD Billions added to GDP",
+      "growth_cagr": 52.3
+    },
+    "financial_services": {
+      "2024": 95,
+      "2025": 145,
+      "2026": 215,
+      "2030": 450,
+      "unit": "USD Billions added to GDP",
+      "growth_cagr": 47.1
+    },
+    "healthcare": {
+      "2024": 65,
+      "2025": 105,
+      "2026": 165,
+      "2030": 380,
+      "unit": "USD Billions added to GDP",
+      "growth_cagr": 55.2
+    },
+    "manufacturing": {
+      "2024": 78,
+      "2025": 118,
+      "2026": 175,
+      "2030": 380,
+      "unit": "USD Billions added to GDP",
+      "growth_cagr": 48.5
+    },
+    "retail_ecommerce": {
+      "2024": 88,
+      "2025": 135,
+      "2026": 198,
+      "2030": 420,
+      "unit": "USD Billions added to GDP",
+      "growth_cagr": 47.8
+    },
+    "transportation_logistics": {
+      "2024": 42,
+      "2025": 68,
+      "2026": 105,
+      "2030": 280,
+      "unit": "USD Billions added to GDP",
+      "growth_cagr": 58.9
+    },
+    "energy_utilities": {
+      "2024": 38,
+      "2025": 62,
+      "2026": 95,
+      "2030": 250,
+      "unit": "USD Billions added to GDP",
+      "growth_cagr": 59.7
+    }
+  },
+  
+  "labor_productivity_impact": {
+    "current_productivity_growth": {
+      "global_average_2015_2024": 1.4,
+      "unit": "percentage annual",
+      "notes": "Crecimiento de productividad laboral sin IA"
+    },
+    "ai_boost_scenarios": {
+      "conservative": {
+        "annual_boost": 0.5,
+        "cumulative_2030": 4.0,
+        "gdp_level_2030": 7.0,
+        "unit": "percentage",
+        "notes": "McKinsey escenario conservador"
+      },
+      "moderate": {
+        "annual_boost": 0.8,
+        "cumulative_2030": 6.4,
+        "gdp_level_2030": 11.0,
+        "unit": "percentage",
+        "notes": "Escenario base mas probables"
+      },
+      "optimistic": {
+        "annual_boost": 1.2,
+        "cumulative_2030": 9.6,
+        "gdp_level_2030": 16.0,
+        "unit": "percentage",
+        "notes": "Goldman Sachs escenario optimista"
+      }
+    }
+  },
+  
+  "investment_vs_returns": {
+    "cumulative_investment_2023_2030": {
+      "estimated": 3.2,
+      "unit": "USD Trillions",
+      "annual_average": 400,
+      "unit_annual": "USD Billions"
+    },
+    "gdp_generated_2030": {
+      "estimated": 15.7,
+      "unit": "USD Trillions",
+      "roi": 4.9,
+      "unit_roi": "multiplier",
+      "notes": "Cada $1 invertido genera $4.9 en PIB"
+    },
+    "comparison": {
+      "internet_1995_2005": 2.8,
+      "mobile_2007_2017": 3.2,
+      "cloud_2010_2020": 2.5,
+      "ai_2023_2030": 4.9,
+      "unit": "GDP multiplier",
+      "notes": "IA tiene mayor multiplicador que tecnologias anteriores"
+    }
+  },
+  
+  "key_studies": {
+    "pwc_2017": {
+      "title": "Sizing the prize - What's the real value of AI for your business",
+      "findings": "IA podria contribuir $15.7T al PIB global para 2030",
+      "regional_impact": "China veria mayor beneficio (+26% PIB), seguido de NA (+14.5%)"
+    },
+    "goldman_sachs_2023": {
+      "title": "The Potentially Large Effects of Artificial Intelligence on Economic Growth",
+      "findings": "IA podria aumentar crecimiento PIB 1.5pp anual en 10 anos",
+      "productivity": "Dos tercios de ocupaciones en US expuestas a automatizacion parcial",
+      "displacement": "300M empleos afectados globalmente"
+    },
+    "mckinsey_2023": {
+      "title": "The economic potential of generative AI",
+      "findings": "IA generativa podria agregar $4.4T anual a economia global",
+      "use_cases": "63 casos de uso identificados en 16 funciones de negocio",
+      "adoption": "75% de valor en customer operations, marketing, software, R&D"
+    },
+    "accenture_2024": {
+      "title": "Work, Workforce, Workers: Reinvented in the Age of Generative AI",
+      "findings": "40% de horas de trabajo pueden ser impactadas por LLMs",
+      "productivity": "Organizaciones pueden redirigir 20-30% de tiempo a actividades de mayor valor"
+    },
+    "mit_2020": {
+      "title": "The Work of the Future: Building Better Jobs in an Age of Intelligent Machines",
+      "findings": "Tecnologia sola no determina destino laboral; politicas y educacion son criticas",
+      "ai_impact": "IA complementara mas que sustituira trabajo humano"
+    }
+  },
+  
+  "conclusions": [
+    "Impacto de IA en PIB crecio de 0.1% (2018) a 3.1% (2026)",
+    "Proyeccion 2030: $15.7T contribucion al PIB global (PwC)",
+    "Productividad laboral: +0.5 a +1.2% adicional anual",
+    "China liderara en impacto relativo (+26% PIB para 2030)",
+    "ROI de inversion en IA: 4.9x multiplicador del PIB",
+    "Sector mas impactado: Software (+$780B para 2030)",
+    "Tension: Productividad vs Deuda tecnica y vulnerabilidad"
+  ]
+}
