@@ -1,0 +1,74 @@
+{
+  "title": "GitHub Octoverse Report 2024 - AI and Global Developer Community",
+  "source": "https://github.blog/news-insights/octoverse/octoverse-2024/",
+  "date": "2024-10",
+  "report_date": "October 29, 2024",
+  
+  "global_developers": {
+    "total_developers": "100 million+",
+    "year_over_year_growth": "significant gains in global south",
+    "first_time_contributors": "unprecedented number",
+    "note": "More developers joined GitHub than ever before"
+  },
+  
+  "ai_activity": {
+    "gen_ai_contributions_increase": 59,
+    "gen_ai_projects_increase": 98,
+    "leading_countries": ["United States", "India", "Germany", "Japan", "Singapore"],
+    "activity_outside_us": "more absolute activity outside the United States",
+    "note": "59% surge in contributions to generative AI projects"
+  },
+  
+  "programming_languages": {
+    "top_language": "Python",
+    "previous_top": "JavaScript",
+    "python_growth_driver": "AI and data science surge",
+    "jupyter_notebooks_growth": "skyrocketed",
+    "note": "Python overtook JavaScript as most popular language"
+  },
+  
+  "regional_growth": {
+    "india": {
+      "status": "fastest growing",
+      "projection": "expected to have world's largest developer population by 2028"
+    },
+    "africa": "notable growth",
+    "latin_america": {
+      "status": "notable growth",
+      "highlight": "Brazil growing fast"
+    },
+    "asia": "significant growth"
+  },
+  
+  "github_education": {
+    "verified_participants": "7 million+",
+    "copilot_adoption_growth": "100% year-over-year",
+    "adopters": ["students", "teachers", "open source maintainers"],
+    "note": "AI attracting more people to become developers"
+  },
+  
+  "ai_trends": {
+    "shift": "from large models to smaller, efficient models",
+    "focus": "new use cases requiring less computational power",
+    "agent_interest": "increased interest in AI agents",
+    "open_source": "no signs of AI hurting open source with low-quality contributions"
+  },
+  
+  "developer_behavior": {
+    "beyond_code_generation": "developers going far beyond code generation",
+    "open_source_first_timers": "wide-scale interest in AI projects from first-time contributors",
+    "empowered_by_ai": "AI helping people learn to write code and build software faster"
+  },
+  
+  "key_insights": [
+    "100 million+ developers on GitHub",
+    "Python overtook JavaScript as top language",
+    "59% increase in generative AI contributions",
+    "98% increase in generative AI projects",
+    "India to be largest developer population by 2028",
+    "7 million+ GitHub Education participants",
+    "100% YoY growth in Copilot adoption among students/educators"
+  ],
+  
+  "ai_impact_summary": "AI is driving unprecedented growth in the global developer community, with significant gains in India, Africa, and Latin America. Python's rise reflects the surge in AI and data science. Developers are going beyond code generation, contributing to open source AI projects at record rates."
+}

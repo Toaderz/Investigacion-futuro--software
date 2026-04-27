@@ -1,0 +1,117 @@
+{
+  "title": "Stack Overflow Developer Survey 2024 - AI Insights",
+  "source": "https://survey.stackoverflow.co/2024/ai",
+  "date": "2024-05",
+  "sample_size": "65,437 developers",
+  "methodology": "Online survey",
+  
+  "ai_adoption": {
+    "currently_using": 62,
+    "planning_to_use": 14,
+    "not_using": 24,
+    "yoy_growth_currently_using": 41,
+    "note": "Increased from 44% in 2023 to 62% in 2024"
+  },
+  
+  "ai_sentiment": {
+    "very_favorable": 28,
+    "favorable": 44,
+    "neutral": 16,
+    "unfavorable": 8,
+    "very_unfavorable": 4,
+    "yoy_change": -5,
+    "note": "Favorability declined from 77% to 72%, possibly due to disappointing results"
+  },
+  
+  "ai_benefits": {
+    "increase_productivity": 81,
+    "speed_up_learning": 71,
+    "improve_code_accuracy": 51,
+    "increase_code_quality": 43,
+    "improve_collaboration": 28,
+    "reduce_cognitive_load": 42,
+    "note": "Multiple selections allowed"
+  },
+  
+  "ai_accuracy_trust": {
+    "feel_good_about_accuracy": 43,
+    "skeptical": 31,
+    "neutral": 26,
+    "note": "Developers remain split on AI accuracy"
+  },
+  
+  "ai_complex_tasks": {
+    "very_good": 8,
+    "good": 20,
+    "neutral": 27,
+    "bad": 30,
+    "very_bad": 15,
+    "note": "45% believe AI is bad or very bad at handling complex tasks"
+  },
+  
+  "ai_workflow_usage": {
+    "write_code": 82,
+    "debug_code": 49,
+    "document_code": 40,
+    "test_code": 32,
+    "refactor_code": 35,
+    "learn_codebase": 28,
+    "code_review": 22,
+    "note": "What developers currently use AI for"
+  },
+  
+  "ai_future_integration": {
+    "documenting_code": 81,
+    "testing_code": 80,
+    "writing_code": 76,
+    "debugging": 68,
+    "refactoring": 65,
+    "code_review": 52
+  },
+  
+  "ai_job_threat": {
+    "perceive_threat": 30,
+    "do_not_perceive_threat": 70,
+    "note": "70% of professional developers do not see AI as a threat to their job"
+  },
+  
+  "ai_ethical_concerns": {
+    "misinformation_disinformation": 79,
+    "source_attribution": 65,
+    "intellectual_property": 58,
+    "privacy_violations": 54,
+    "job_displacement": 48,
+    "bias": 42
+  },
+  
+  "ai_challenges": {
+    "lack_of_trust": 42,
+    "understanding_codebase": 41,
+    "training": 21,
+    "integration": 35,
+    "cost": 28
+  },
+  
+  "experience_levels": {
+    "learning_to_code": {
+      "using_ai": 68,
+      "trust_accuracy": 49,
+      "benefit_learning": 71
+    },
+    "professional_developers": {
+      "using_ai": 60,
+      "trust_accuracy": 42,
+      "benefit_learning": 61
+    }
+  },
+  
+  "key_insights": [
+    "AI adoption surged from 44% to 62% year-over-year",
+    "Favorability declined from 77% to 72%, suggesting reality check",
+    "81% see productivity increase as main benefit",
+    "45% believe AI is bad at complex tasks",
+    "70% do not see AI as job threat",
+    "79% concerned about misinformation in AI results",
+    "Learning coders trust AI more than professionals (49% vs 42%)"
+  ]
+}

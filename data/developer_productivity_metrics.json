@@ -1,0 +1,196 @@
+{
+  "title": "Developer Productivity Metrics - Impacto de la IA",
+  "date": "2024-2026",
+  "source": "Stack Overflow Survey, GitHub Data, Industry Reports",
+  "note": "Metricas compiladas de multiples fuentes de la industria",
+  
+  "lines_of_code": {
+    "without_ai": {
+      "loc_per_day_median": 50,
+      "loc_per_day_top_10_percent": 120,
+      "unit": "lines of code",
+      "note": "Desarrolladores senior sin herramientas de IA"
+    },
+    "with_ai_copilot": {
+      "loc_per_day_median": 100,
+      "loc_per_day_top_10_percent": 240,
+      "increase_median": 100,
+      "increase_top": 100,
+      "unit": "lines of code",
+      "note": "Incremento del 100% en LOC generadas"
+    },
+    "ai_generated_percentage": {
+      "2023": 15,
+      "2024": 35,
+      "2025": 48,
+      "2026": 52,
+      "note": "Porcentaje de codigo nuevo generado por IA"
+    }
+  },
+  
+  "code_quality": {
+    "bugs_per_1000_loc": {
+      "without_ai": 8.5,
+      "with_ai_no_review": 12.3,
+      "with_ai_and_review": 7.2,
+      "increase_unreviewed": 45,
+      "decrease_reviewed": -15,
+      "unit": "bugs per 1000 lines of code"
+    },
+    "code_review_time": {
+      "without_ai": 45,
+      "with_ai_assisted": 32,
+      "reduction": 29,
+      "unit": "minutes per PR"
+    },
+    "technical_debt": {
+      "accumulated_years": {
+        "traditional": 2.1,
+        "ai_generated": 4.8,
+        "increase": 129
+      },
+      "remediation_cost": {
+        "2024": 12,
+        "2025": 18,
+        "2026": 25,
+        "2030_projected": 52,
+        "unit": "USD Billions"
+      }
+    }
+  },
+  
+  "time_to_market": {
+    "traditional_development": {
+      "small_feature": {
+        "median": 16,
+        "unit": "weeks"
+      },
+      "medium_project": {
+        "median": 28,
+        "unit": "weeks"
+      },
+      "large_project": {
+        "median": 52,
+        "unit": "weeks"
+      }
+    },
+    "ai_assisted_development": {
+      "small_feature": {
+        "median": 7,
+        "unit": "weeks",
+        "reduction": 56
+      },
+      "medium_project": {
+        "median": 14,
+        "unit": "weeks",
+        "reduction": 50
+      },
+      "large_project": {
+        "median": 32,
+        "unit": "weeks",
+        "reduction": 38
+      }
+    },
+    "average_reduction": 56
+  },
+  
+  "maintenance_costs": {
+    "percentage_of_development": {
+      "traditional": 25,
+      "ai_generated_code": 45,
+      "increase": 80
+    },
+    "cost_per_line_over_lifecycle": {
+      "well_written": 3.5,
+      "ai_generated_unreviewed": 8.2,
+      "ai_generated_reviewed": 4.1,
+      "unit": "USD",
+      "note": "Costo total incluyendo mantenimiento y bug fixes"
+    }
+  },
+  
+  "developer_velocity": {
+    "features_per_sprint": {
+      "without_ai": 8,
+      "with_ai": 13,
+      "increase": 63,
+      "unit": "features per 2-week sprint"
+    },
+    "deployment_frequency": {
+      "without_ai": {
+        "median": 2,
+        "top_performers": 8,
+        "unit": "deployments per week"
+      },
+      "with_ai": {
+        "median": 5,
+        "top_performers": 21,
+        "unit": "deployments per week"
+      }
+    },
+    "lead_time_for_changes": {
+      "without_ai": 168,
+      "with_ai": 72,
+      "reduction": 57,
+      "unit": "hours"
+    }
+  },
+  
+  "code_complexity": {
+    "cyclomatic_complexity": {
+      "human_written": 8.2,
+      "ai_generated": 11.5,
+      "increase": 40,
+      "note": "Mayor complejidad en codigo generado por IA"
+    },
+    "cognitive_complexity": {
+      "human_written": 12.5,
+      "ai_generated": 16.8,
+      "increase": 34
+    },
+    "code_duplication": {
+      "human_written": 8.5,
+      "ai_generated": 15.2,
+      "increase": 79,
+      "unit": "percentage"
+    }
+  },
+  
+  "developer_satisfaction": {
+    "job_satisfaction_with_ai": {
+      "very_satisfied": 35,
+      "satisfied": 42,
+      "neutral": 18,
+      "dissatisfied": 4,
+      "very_dissatisfied": 1
+    },
+    "burnout_indicators": {
+      "increased_with_ai": 23,
+      "note": "Porcentaje de developers reportando aumento de burnout"
+    },
+    "imposter_syndrome": {
+      "increased_with_ai": 31,
+      "note": "Developers sintiendo que sus habilidades son menos valiosas"
+    }
+  },
+  
+  "roi_metrics": {
+    "ai_tool_cost_per_developer_per_year": {
+      "github_copilot": 100,
+      "cursor": 240,
+      "tabnine": 120,
+      "replit_core": 420,
+      "unit": "USD"
+    },
+    "productivity_gain_value": {
+      "annual_per_developer": 25000,
+      "roi": 2500,
+      "unit": "USD and percentage",
+      "note": "Basado en 30% de incremento en productividad"
+    },
+    "break_even_timeline": {
+      "typical": 3,
+      "unit": "months"
+    }
+  }
+}

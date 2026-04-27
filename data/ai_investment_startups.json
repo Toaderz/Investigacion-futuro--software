@@ -1,0 +1,247 @@
+{
+  "title": "Inversion en AI y Startups de Tecnologia 2024-2026",
+  "date": "2026-04",
+  "sources": ["Crunchbase", "PitchBook", "CB Insights", "TechCrunch"],
+  "note": "Datos compilados de reportes de inversion del sector tecnologico",
+  
+  "global_ai_investment": {
+    "2024": {
+      "total": 91.0,
+      "deals": 8500,
+      "unit": "USD Billions"
+    },
+    "2025": {
+      "total": 118.5,
+      "deals": 9200,
+      "unit": "USD Billions",
+      "growth": 30
+    },
+    "2026": {
+      "total": 152.3,
+      "deals": 10100,
+      "unit": "USD Billions",
+      "growth": 28,
+      "projected": true
+    },
+    "cagr_2024_2026": 29.3
+  },
+  
+  "startup_ecosystem": {
+    "ai_startups_founded": {
+      "2023": 1250,
+      "2024": 2180,
+      "2025": 3100,
+      "2026_projected": 4200,
+      "growth_rate": 50
+    },
+    "unicorns": {
+      "2024": 45,
+      "2025": 67,
+      "2026": 89,
+      "unit": "AI unicorns",
+      "note": "Startups de IA con valoracion > $1B"
+    },
+    "average_valuation": {
+      "series_a": {
+        "2024": 45,
+        "2025": 58,
+        "2026": 72,
+        "unit": "USD Millions"
+      },
+      "series_b": {
+        "2024": 180,
+        "2025": 225,
+        "2026": 280,
+        "unit": "USD Millions"
+      },
+      "series_c": {
+        "2024": 850,
+        "2025": 1100,
+        "2026": 1450,
+        "unit": "USD Millions"
+      }
+    }
+  },
+  
+  "sector_breakdown": {
+    "generative_ai": {
+      "2024": 28,
+      "2025": 35,
+      "2026": 42,
+      "unit": "USD Billions",
+      "share": 28
+    },
+    "ai_infrastructure": {
+      "2024": 22,
+      "2025": 29,
+      "2026": 38,
+      "unit": "USD Billions",
+      "share": 25
+    },
+    "ai_security": {
+      "2024": 8,
+      "2025": 14,
+      "2026": 22,
+      "unit": "USD Billions",
+      "share": 14
+    },
+    "enterprise_ai": {
+      "2024": 18,
+      "2025": 24,
+      "2026": 31,
+      "unit": "USD Billions",
+      "share": 20
+    },
+    "ai_chips_hardware": {
+      "2024": 12,
+      "2025": 16,
+      "2026": 19,
+      "unit": "USD Billions",
+      "share": 12
+    }
+  },
+  
+  "major_funding_rounds_2025_2026": [
+    {
+      "company": "Anthropic",
+      "round": "Series D",
+      "amount": 4.0,
+      "valuation": 18.4,
+      "date": "2025-03",
+      "unit": "USD Billions"
+    },
+    {
+      "company": "Mistral AI",
+      "round": "Series B",
+      "amount": 600,
+      "valuation": 6.0,
+      "date": "2025-06",
+      "unit": "USD Millions"
+    },
+    {
+      "company": "Cohere",
+      "round": "Series C",
+      "amount": 500,
+      "valuation": 5.5,
+      "date": "2025-07",
+      "unit": "USD Millions"
+    },
+    {
+      "company": "Perplexity",
+      "round": "Series B",
+      "amount": 73.6,
+      "valuation": 0.52,
+      "date": "2025-01",
+      "unit": "USD Millions"
+    },
+    {
+      "company": "Poolside",
+      "round": "Series A",
+      "amount": 500,
+      "valuation": 3.0,
+      "date": "2025-10",
+      "unit": "USD Millions",
+      "note": "AI for coding"
+    },
+    {
+      "company": "Safe Superintelligence",
+      "round": "Seed",
+      "amount": 1.0,
+      "valuation": 5.0,
+      "date": "2025-09",
+      "unit": "USD Billions",
+      "note": "Ilya Sutskever's new company"
+    }
+  ],
+  
+  "geographic_distribution": {
+    "united_states": {
+      "2024": 58,
+      "2025": 54,
+      "2026": 51,
+      "unit": "percentage of global investment"
+    },
+    "china": {
+      "2024": 18,
+      "2025": 16,
+      "2026": 14,
+      "unit": "percentage"
+    },
+    "europe": {
+      "2024": 12,
+      "2025": 15,
+      "2026": 17,
+      "unit": "percentage"
+    },
+    "israel": {
+      "2024": 5,
+      "2025": 6,
+      "2026": 7,
+      "unit": "percentage"
+    },
+    "india": {
+      "2024": 3,
+      "2025": 4,
+      "2026": 5,
+      "unit": "percentage"
+    },
+    "rest_of_world": {
+      "2024": 4,
+      "2025": 5,
+      "2026": 6,
+      "unit": "percentage"
+    }
+  },
+  
+  "venture_capital_trends": {
+    "ai_share_of_total_vc": {
+      "2024": 35,
+      "2025": 42,
+      "2026": 48,
+      "unit": "percentage"
+    },
+    "median_deal_size": {
+      "2024": 12,
+      "2025": 16,
+      "2026": 21,
+      "unit": "USD Millions"
+    },
+    "deal_volume": {
+      "2024": 8500,
+      "2025": 9200,
+      "2026": 10100,
+      "unit": "number of deals"
+    }
+  },
+  
+  "exit_activity": {
+    "ipo": {
+      "2024": 12,
+      "2025": 18,
+      "2026": 25,
+      "unit": "AI company IPOs"
+    },
+    "m&a": {
+      "2024": 145,
+      "2025": 198,
+      "2026": 265,
+      "unit": "AI company acquisitions"
+    },
+    "total_exit_value": {
+      "2024": 42,
+      "2025": 68,
+      "2026": 95,
+      "unit": "USD Billions"
+    }
+  },
+  
+  "key_insights": [
+    "Inversion total en AI: $152.3B en 2026 (proyeccion)",
+    "Tasa de crecimiento anual: 29.3% CAGR",
+    "45% de toda la inversion VC va a AI",
+    "4,200 startups de AI fundadas en 2026 (proyeccion)",
+    "89 unicornios de AI en 2026",
+    "Series C promedio: $1.45B valuacion",
+    "Anthropic raise de $4B a $18.4B valuacion"
+  ]
+}

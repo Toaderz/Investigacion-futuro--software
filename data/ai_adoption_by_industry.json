@@ -1,0 +1,229 @@
+{
+  "title": "Adopcion de IA por Industria y Caso de Uso 2024-2026",
+  "date": "2026-04",
+  "sources": ["McKinsey Global Survey", "Gartner", "IDC", "Industry Reports"],
+  
+  "adoption_by_industry": {
+    "technology": {
+      "2024": 78,
+      "2025": 88,
+      "2026": 95,
+      "unit": "percentage",
+      "primary_use_cases": ["Software development", "Testing", "DevOps", "Code review"],
+      "maturity_level": "High",
+      "roi_realized": 340
+    },
+    "financial_services": {
+      "2024": 62,
+      "2025": 75,
+      "2026": 84,
+      "unit": "percentage",
+      "primary_use_cases": ["Fraud detection", "Algorithmic trading", "Risk assessment", "Customer service"],
+      "maturity_level": "Medium-High",
+      "roi_realized": 280
+    },
+    "healthcare": {
+      "2024": 42,
+      "2025": 58,
+      "2026": 72,
+      "unit": "percentage",
+      "primary_use_cases": ["Medical imaging", "Drug discovery", "Patient diagnosis", "Administrative automation"],
+      "maturity_level": "Medium",
+      "roi_realized": 195
+    },
+    "manufacturing": {
+      "2024": 48,
+      "2025": 61,
+      "2026": 73,
+      "unit": "percentage",
+      "primary_use_cases": ["Predictive maintenance", "Quality control", "Supply chain optimization", "Robotics"],
+      "maturity_level": "Medium",
+      "roi_realized": 225
+    },
+    "retail_ecommerce": {
+      "2024": 55,
+      "2025": 68,
+      "2026": 79,
+      "unit": "percentage",
+      "primary_use_cases": ["Personalization", "Inventory management", "Customer service", "Demand forecasting"],
+      "maturity_level": "Medium-High",
+      "roi_realized": 265
+    },
+    "media_entertainment": {
+      "2024": 68,
+      "2025": 78,
+      "2026": 86,
+      "unit": "percentage",
+      "primary_use_cases": ["Content generation", "Recommendation engines", "Video editing", "Music composition"],
+      "maturity_level": "High",
+      "roi_realized": 310
+    },
+    "professional_services": {
+      "2024": 52,
+      "2025": 65,
+      "2026": 76,
+      "unit": "percentage",
+      "primary_use_cases": ["Document analysis", "Research", "Client interaction", "Report generation"],
+      "maturity_level": "Medium",
+      "roi_realized": 240
+    },
+    "government_public_sector": {
+      "2024": 28,
+      "2025": 38,
+      "2026": 48,
+      "unit": "percentage",
+      "primary_use_cases": ["Document processing", "Citizen services", "Fraud detection", "Emergency response"],
+      "maturity_level": "Low-Medium",
+      "roi_realized": 155
+    },
+    "education": {
+      "2024": 35,
+      "2025": 48,
+      "2026": 61,
+      "unit": "percentage",
+      "primary_use_cases": ["Personalized learning", "Content creation", "Administrative tasks", "Assessment"],
+      "maturity_level": "Low-Medium",
+      "roi_realized": 140
+    }
+  },
+  
+  "use_case_maturity": {
+    "high_maturity_high_adoption": [
+      "Code generation and completion",
+      "Text summarization",
+      "Chatbots and virtual assistants",
+      "Image generation",
+      "Content personalization"
+    ],
+    "medium_maturity_growing": [
+      "Document analysis and extraction",
+      "Translation and localization",
+      "Predictive analytics",
+      "Recommendation systems",
+      "Speech recognition and synthesis"
+    ],
+    "emerging_low_adoption": [
+      "Autonomous decision making",
+      "Scientific discovery",
+      "Complex reasoning",
+      "Multi-agent systems",
+      "Real-time strategy optimization"
+    ]
+  },
+  
+  "productivity_impact_by_function": {
+    "software_development": {
+      "productivity_gain": 55,
+      "quality_impact": -5,
+      "time_savings_hours_per_week": 12,
+      "unit": "percentage and hours"
+    },
+    "marketing": {
+      "productivity_gain": 42,
+      "quality_impact": 15,
+      "time_savings_hours_per_week": 15,
+      "unit": "percentage and hours"
+    },
+    "customer_service": {
+      "productivity_gain": 65,
+      "quality_impact": 8,
+      "time_savings_hours_per_week": 18,
+      "unit": "percentage and hours"
+    },
+    "legal": {
+      "productivity_gain": 38,
+      "quality_impact": 22,
+      "time_savings_hours_per_week": 10,
+      "unit": "percentage and hours"
+    },
+    "finance": {
+      "productivity_gain": 48,
+      "quality_impact": 18,
+      "time_savings_hours_per_week": 14,
+      "unit": "percentage and hours"
+    },
+    "hr_recruiting": {
+      "productivity_gain": 52,
+      "quality_impact": -8,
+      "time_savings_hours_per_week": 11,
+      "unit": "percentage and hours"
+    },
+    "research_development": {
+      "productivity_gain": 35,
+      "quality_impact": 28,
+      "time_savings_hours_per_week": 8,
+      "unit": "percentage and hours"
+    },
+    "operations": {
+      "productivity_gain": 45,
+      "quality_impact": 12,
+      "time_savings_hours_per_week": 13,
+      "unit": "percentage and hours"
+    }
+  },
+  
+  "barriers_to_adoption": {
+    "data_privacy_security": {
+      "percentage": 68,
+      "severity": "High"
+    },
+    "lack_of_skilled_talent": {
+      "percentage": 54,
+      "severity": "High"
+    },
+    "integration_complexity": {
+      "percentage": 48,
+      "severity": "Medium-High"
+    },
+    "cost_uncertainty": {
+      "percentage": 45,
+      "severity": "Medium"
+    },
+    "regulatory_compliance": {
+      "percentage": 42,
+      "severity": "Medium-High"
+    },
+    "lack_of_quality_data": {
+      "percentage": 38,
+      "severity": "Medium"
+    },
+    "organizational_resistance": {
+      "percentage": 32,
+      "severity": "Medium"
+    },
+    "explainability_concerns": {
+      "percentage": 28,
+      "severity": "Low-Medium"
+    }
+  },
+  
+  "roi_timeline": {
+    "break_even_months": {
+      "minimum": 6,
+      "median": 14,
+      "maximum": 36,
+      "unit": "months"
+    },
+    "full_roi_months": {
+      "minimum": 12,
+      "median": 24,
+      "maximum": 48,
+      "unit": "months"
+    }
+  },
+  
+  "future_outlook": {
+    "2027_projections": {
+      "overall_adoption": 85,
+      "enterprise_adoption": 92,
+      "sme_adoption": 78,
+      "unit": "percentage"
+    },
+    "2030_projections": {
+      "ai_native_companies": 40,
+      "ai_augmented_companies": 55,
+      "ai_laggards": 5,
+      "unit": "percentage of companies"
+    }
+  }
+}

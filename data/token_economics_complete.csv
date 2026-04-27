@@ -1,0 +1,24 @@
+Period,Model,Provider,Input_Price_1M,Output_Price_1M,Context_Window,Training_Data,Release_Date,Notes
+2023-03,GPT-4,OpenAI,30.00,60.00,8192,Unknown,2023-03-14,Initial launch
+2023-03,GPT-4-32k,OpenAI,60.00,120.00,32768,Unknown,2023-03-14,Extended context
+2023-11,GPT-4-Turbo,OpenAI,10.00,30.00,128000,Apr 2023,2023-11-06,Price reduction
+2024-05,GPT-4o,OpenAI,5.00,15.00,128000,Oct 2023,2024-05-13,Optimized model
+2024-05,GPT-4o-mini,OpenAI,0.15,0.60,128000,Oct 2023,2024-07-18,Economy option
+2025-02,GPT-4.5,OpenAI,75.00,150.00,256000,Unknown,2025-02-27,Research preview
+2025-06,GPT-5.5,OpenAI,5.00,30.00,270000,Unknown,2025-06-15,Current flagship
+2025-06,GPT-5.4,OpenAI,2.50,15.00,270000,Unknown,2025-06-15,Mid-tier
+2025-06,GPT-5.4-mini,OpenAI,0.75,4.50,270000,Unknown,2025-06-15,Economy tier
+2024-03,Claude-3-Opus,Anthropic,15.00,75.00,200000,Aug 2023,2024-03-04,High capability
+2024-06,Claude-3.5-Sonnet,Anthropic,3.00,15.00,200000,Aug 2023,2024-06-20,Balanced option
+2024-10,Claude-3.5-Haiku,Anthropic,0.25,1.25,200000,Aug 2023,2024-10-22,Fast economy
+2025-03,Claude-4,Anthropic,8.00,40.00,200000,Unknown,2025-03-15,Current flagship
+2025-08,Claude-4.5,Anthropic,12.00,60.00,200000,Unknown,2025-08-10,Enhanced reasoning
+2024-04,Llama-3-70B,Meta,0.00,0.00,8192,Dec 2023,2024-04-18,Open source
+2024-12,Llama-3.1-405B,Meta,0.00,0.00,128000,Dec 2023,2024-12-15,Largest open model
+2025-06,Llama-4,Meta,0.00,0.00,128000,Unknown,2025-06-01,Current open source
+2024-02,Gemini-1.5-Pro,Google,3.50,10.50,2000000,Unknown,2024-02-15,Long context
+2024-06,Gemini-1.5-Flash,Google,0.35,1.05,2000000,Unknown,2024-06-24,Fast variant
+2025-04,Gemini-2.0,Google,2.50,7.50,2000000,Unknown,2025-04-10,Current version
+2023-11,Mistral-Large,Mistral,4.00,12.00,32000,Unknown,2023-11-15,European alternative
+2024-06,Mistral-Large-2,Mistral,2.00,6.00,128000,Unknown,2024-06-20,Improved version
+2025-01,Mistral-Medium, Mistral,1.00,3.00,128000,Unknown,2025-01-10,Economy option
