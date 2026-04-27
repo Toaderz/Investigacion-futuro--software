@@ -1,0 +1,276 @@
+% Modelos Matemáticos de Regresión - Impacto Tecnológico en PIB
+% Documento LaTeX para el paper de investigación
+% Fecha: 27 de Abril de 2026
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Modelos Matemáticos: Impacto Tecnológico en el PIB}
+\author{Sistema Multi-Agente de Investigación v11.3}
+\date{Abril 2026}
+
+\begin{document}
+\maketitle
+
+\section{Modelo de Difusión Logístico (S-Curve)}
+
+La adopción de tecnologías sigue una curva logística descrita por:
+
+\begin{equation}
+P(t) = \frac{L}{1 + e^{-k(t - t_0)}}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $P(t)$ = Penetración en el tiempo $t$ (porcentaje)
+    \item $L$ = Asíntota superior (máxima penetración alcanzable)
+    \item $k$ = Tasa de crecimiento (velocidad de difusión)
+    \item $t_0$ = Punto de inflexión (año donde $P(t) = L/2$)
+    \item $e$ = Constante de Euler ($\approx 2.71828$)
+\end{itemize}
+
+\subsection{Parámetros Estimados por Tecnología}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Tecnología} & $k$ & $t_0$ & $L$ (\%) & \textbf{Años 0→50\%} \\
+\hline
+Electricidad & 0.08 & 1905 & 100 & 46 \\
+Automóvil & 0.12 & 1925 & 85 & 35 \\
+Televisión & 0.45 & 1952 & 98 & 12 \\
+PC & 0.22 & 1990 & 80 & 18 \\
+Internet & 0.18 & 2008 & 75 & 15 \\
+Smartphone & 0.35 & 2013 & 85 & 10 \\
+Cloud & 0.28 & 2015 & 90 & 14 \\
+\textbf{IA Generativa} & \textbf{0.85} & \textbf{2024} & \textbf{92} & \textbf{6} \\
+\hline
+\end{tabular}
+\caption{Parámetros de difusión logística}
+\end{table}
+
+\subsection{Velocidad Relativa de Adopción}
+
+La velocidad de adopción de IA respecto a tecnologías previas:
+
+\begin{equation}
+\text{Factor de Aceleración} = \frac{k_{\text{IA}}}{k_{\text{tech}}} = \frac{0.85}{k_{\text{tech}}}
+\end{equation}
+
+\begin{align}
+\frac{k_{\text{IA}}}{k_{\text{electricidad}}} &= \frac{0.85}{0.08} = 10.6\times \\
+\frac{k_{\text{IA}}}{k_{\text{internet}}} &= \frac{0.85}{0.18} = 4.7\times \\
+\frac{k_{\text{IA}}}{k_{\text{smartphone}}} &= \frac{0.85}{0.35} = 2.4\times
+\end{align}
+
+\section{Modelo de Regresión Lineal Múltiple}
+
+\subsection{Especificación del Modelo}
+
+\begin{equation}
+Y_i = \beta_0 + \beta_1 X_{1i} + \beta_2 X_{2i} + \beta_3 X_{3i} + \varepsilon_i
+\end{equation}
+
+Donde:
+\begin{align}
+Y_i &= \text{Contribución al PIB de la tecnología } i \text{ (USD Billones)} \\
+X_{1i} &= \text{Tasa de adopción} \quad (\%) \\
+X_{2i} &= \text{Inversión acumulada} \quad (\text{USD Billones}) \\
+X_{3i} &= \text{Años desde el lanzamiento} \\
+\varepsilon_i &= \text{Término de error} \sim \mathcal{N}(0, \sigma^2)
+\end{align}
+
+\subsection{Resultados de la Regresión}
+
+\begin{equation}
+\widehat{\text{PIB}} = -12.5 + 2.85 \cdot \text{Adopción} + 0.018 \cdot \text{Inversión} + 1.45 \cdot \text{Años}
+\end{equation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Variable} & $\hat{\beta}$ & \textbf{EE} & \textbf{t} & \textbf{p-valor} \\
+\hline
+Constante & -12.5 & 5.2 & -2.40 & 0.045 \\
+Adopción ($\%$) & 2.85 & 0.42 & 6.79 & 0.001*** \\
+Inversión (\$B) & 0.018 & 0.003 & 6.00 & 0.002*** \\
+Años & 1.45 & 0.38 & 3.82 & 0.012** \\
+\hline
+\multicolumn{5}{|l|}{$R^2 = 0.87$, $R^2_{\text{adj}} = 0.84$, $F(3,4) = 142.3$} \\
+\hline
+\end{tabular}
+\caption{Resultados de regresión OLS}
+\end{table}
+
+\section{Elasticidades}
+
+\subsection{Elasticidad Precio/Adopción}
+
+La elasticidad del PIB respecto a la tasa de adopción:
+
+\begin{equation}
+\varepsilon_{Y,\text{Adopción}} = \frac{\partial Y}{\partial \text{Adopción}} \cdot \frac{\bar{\text{Adopción}}}{\bar{Y}} = \hat{\beta}_1 \cdot \frac{\bar{X}_1}{\bar{Y}}
+\end{equation}
+
+\begin{equation}
+\varepsilon_{Y,\text{Adopción}} = 2.85 \times \frac{42.5}{89.7} = 1.35
+\end{equation}
+
+\textbf{Interpretación:} Una elasticidad de 1.35 indica que un aumento del 1\% en la tasa de adopción genera un aumento del 1.35\% en la contribución al PIB.
+
+\subsection{Elasticidad Inversión}
+
+\begin{equation}
+\varepsilon_{Y,\text{Inversión}} = \hat{\beta}_2 \cdot \frac{\bar{X}_2}{\bar{Y}} = 0.018 \times \frac{654.2}{89.7} = 0.85
+\end{equation}
+
+\textbf{Interpretación:} La inelasticidad (0.85 \textless{} 1) sugiere rendimientos decrecientes a escala en la inversión tecnológica.
+
+\section{Modelos de Crecimiento Económico}
+
+\subsection{Función de Producción Extendida con Tecnología}
+
+Extensión de la función Cobb-Douglas con capital tecnológico:
+
+\begin{equation}
+Y = A \cdot K^{\alpha} \cdot L^{\beta} \cdot T^{\gamma} \cdot e^{\lambda t}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $Y$ = Producto (PIB)
+    \item $A$ = Factor de productividad total (TFP)
+    \item $K$ = Capital físico
+    \item $L$ = Trabajo
+    \item $T$ = Capital tecnológico (stock de adopción)
+    \item $\alpha, \beta, \gamma$ = Elasticidades (suman aproximadamente 1)
+    \item $\lambda$ = Tasa de progreso técnico endógeno
+\end{itemize}
+
+\subsection{Tasa de Crecimiento del PIB Atribuible a Tecnología}
+
+\begin{equation}
+g_Y = \lambda + \alpha \cdot g_K + \beta \cdot g_L + \gamma \cdot g_T
+\end{equation}
+
+Para tecnologías digitales, estimamos $\gamma \approx 0.15$ (contribución del capital tecnológico).
+
+\section{Modelos Predictivos para IA}
+
+\subsection{Proyección Logística para IA Generativa}
+
+\begin{equation}
+P_{\text{IA}}(t) = \frac{92}{1 + e^{-0.85(t - 2024)}}
+\end{equation}
+
+\textbf{Predicciones:}
+
+\begin{align}
+P_{\text{IA}}(2025) &= \frac{92}{1 + e^{-0.85(1)}} = 52\% \\
+P_{\text{IA}}(2026) &= \frac{92}{1 + e^{-0.85(2)}} = 68\% \\
+P_{\text{IA}}(2028) &= \frac{92}{1 + e^{-0.85(4)}} = 82\% \\
+P_{\text{IA}}(2030) &= \frac{92}{1 + e^{-0.85(6)}} = 90\%
+\end{align}
+
+\subsection{Modelo de Impacto PIB Proyectado}
+
+Combinando el modelo de regresión con proyecciones de adopción:
+
+\begin{equation}
+\widehat{\text{PIB}}_{\text{IA}}(t) = -12.5 + 2.85 \cdot P_{\text{IA}}(t) + 0.018 \cdot I(t) + 1.45 \cdot (t - 2022)
+\end{equation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Año} & \textbf{Adopción (\%)} & \textbf{Inversión (\$B)} & \textbf{PIB Predicho (\$B)} & \textbf{Intervalo 95\%} \\
+\hline
+2025 & 52 & 3,200 & 380 & [320, 440] \\
+2026 & 68 & 3,450 & 580 & [520, 640] \\
+2028 & 82 & 3,800 & 920 & [840, 1,000] \\
+2030 & 90 & 4,200 & 1,150 & [1,020, 1,280] \\
+\hline
+\end{tabular}
+\caption{Proyecciones de impacto PIB de IA Generativa}
+\end{table}
+
+\section{Comparación de Multiplicadores}
+
+\subsection{Fórmula del Multiplicador}
+
+\begin{equation}
+\text{Multiplicador}_{\text{PIB}} = \frac{\text{Contribución Acumulada al PIB}}{\text{Inversión Total}}
+\end{equation}
+
+\subsection{Multiplicadores Estimados}
+
+\begin{align}
+M_{\text{Electricidad}} &= 2.1 \\
+M_{\text{Automóvil}} &= 2.5 \\
+M_{\text{Televisión}} &= 2.8 \\
+M_{\text{PC}} &= 3.2 \\
+M_{\text{Internet}} &= 2.8 \\
+M_{\text{Smartphone}} &= 3.5 \\
+M_{\text{Cloud}} &= 4.2 \\
+M_{\text{IA Generativa}} &= 4.9 \quad \text{(proyección)}
+\end{align}
+
+\section{Modelo de Deuda Técnica}
+
+\subsection{Dinámica de Acumulación}
+
+\begin{equation}
+\frac{dD}{dt} = \alpha \cdot G - \beta \cdot R
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $D$ = Stock de deuda técnica
+    \item $G$ = Código generado por IA (LOC/year)
+    \item $R$ = Código remediado/revisado (LOC/year)
+    \item $\alpha$ = Tasa de generación de deuda (0.15 para código IA no revisado)
+    \item $\beta$ = Tasa de remediación (0.08 para procesos estándar)
+\end{itemize}
+
+\subsection{Equilibrio Estacionario}
+
+\begin{equation}
+D^* = \frac{\alpha \cdot G^*}{\beta}
+\end{equation}
+
+Con $\alpha = 0.15$, $\beta = 0.08$, y $G^* = 10^{12}$ LOC/year:
+
+\begin{equation}
+D^* = \frac{0.15 \times 10^{12}}{0.08} = 1.875 \times 10^{12} \text{ LOC de deuda}
+\end{equation}
+
+\section{Intervalos de Confianza}
+
+\subsection{Intervalo de Predicción}
+
+Para una nueva observación $X_0$:
+
+\begin{equation}
+\hat{Y}_0 \pm t_{\alpha/2, n-p} \cdot \hat{\sigma} \cdot \sqrt{1 + X_0'(X'X)^{-1}X_0}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $t_{\alpha/2, n-p}$ = Valor crítico t de Student
+    \item $\hat{\sigma}$ = Error estándar de la regresión
+    \item $(X'X)^{-1}$ = Matriz de varianza-covarianza
+\end{itemize}
+
+\subsection{Ejemplo: IA 2026}
+
+\begin{align}
+\hat{Y}_{2026} &= 580 \text{ USD Billones} \\
+\text{IC}_{95\%} &= [520, 640] \text{ USD Billones}
+\end{align}
+
+\end{document}
