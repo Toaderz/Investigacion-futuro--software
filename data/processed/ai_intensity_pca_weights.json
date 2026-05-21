@@ -1,0 +1,15 @@
+{
+  "weights": {
+    "ai_product_binary": 0.48275150080386214,
+    "rd_intensity_norm": 0.03423541413838156,
+    "ai_mentions_proxy": 0.4830130850577562
+  },
+  "variance_explained_pc1": 0.5937944347141763,
+  "loadings_raw": {
+    "ai_product_binary": 0.7060285680177146,
+    "rd_intensity_norm": -0.0500696121697517,
+    "ai_mentions_proxy": 0.7064111374263757
+  },
+  "method": "PCA (StandardScaler + PC1)",
+  "note": "Pesos v1.5: PCA sobre componentes estandarizados, reemplaza 40/30/30 ad-hoc"
+}

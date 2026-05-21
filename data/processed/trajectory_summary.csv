@@ -1,0 +1,9 @@
+,,return_annual_pct,return_annual_pct,return_annual_pct,ai_intensity,ai_intensity,ai_intensity,op_margin,op_margin,op_margin
+,,mean,std,count,mean,std,count,mean,std,count
+trajectory_type,periodo,,,,,,,,,
+A,post_2022,24.342,41.672,48,14.456,27.454,48,-40.036,275.089,25
+A,pre_2022,33.895,71.949,61,0.047,0.065,61,10.634,23.543,36
+B,post_2022,25.193,124.401,54,0.171,0.585,54,-136.535,586.499,27
+B,pre_2022,17.298,83.174,62,0.195,0.654,62,-139.807,443.973,32
+C,post_2022,45.881,68.671,93,35.91,35.119,93,6.436,33.091,65
+C,pre_2022,28.822,62.166,119,1.438,8.533,119,2.387,44.247,74

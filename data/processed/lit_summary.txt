@@ -1,0 +1,223 @@
+[1] Leveraging generative AI capabilities for competitive ...
+    URL: https://www.sciencedirect.com/science/article/abs/pii/S0019850125000847
+    Snippet: Compared with some existing theoretical lenses, such as the technology-organization-environment (TOE) framework, diffusion of innovation theory, and the antecedents-behavior-consequences (ABC) model (Table 1; see Al-Khatib (2023); Singh et al. (2024)
+
+[2] 2024: The State of Generative AI in the Enterprise
+    URL: https://menlovc.com/2024-the-state-of-generative-ai-in-the-enterprise
+    Snippet: ChatGPT?s disruption of Chegg and Stack Overflow this year was a wake-up call: Chegg saw 85% of its market cap vanish, while Stack Overflow?s web traffic halved. Other categories are ripe for disruption. IT outsourcing firms like Cognizant and legacy
+
+[3] Enterprise Generative AI in 2024: The future of work | Altman Solon
+    URL: https://www.altmansolon.com/thought-leadership/2024-enterprise-adoption-generative-ai
+    Snippet: In many respects, 2023 was a test year for generative AI in the workplace, as evidenced by the sharp decline in skeptics. Last year, 68% of respondents struggled to see value in generative AI tooling. In 2024, this number declined to 24% of responden
+
+[4] 2025: The State of Generative AI in the Enterprise | Menlo Ventures
+    URL: https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise
+    Snippet: ### Follow the Money: Where Do Enterprise Dollars Flow?
+
+Our data indicates companies spent $37 billion on generative AI in 2025,3 up from $11.5 billion4 in 2024, a 3.2x year-over-year increase. The largest share, $19 billion, went to the user-facing
+
+[5] [PDF] Artificial Intelligence, Upper Echelons, and Financial Performance
+    URL: https://scholarspace.manoa.hawaii.edu/bitstreams/196c3624-1053-41fd-b846-bedd08531d84/download
+    Snippet: Gardiner, E. (2024). What?s age got to do with it? The effect of board member age diversity: a systematic review. Management Review Quarterly, 74(1), 65?92. Gelman, A., & Hill, J. (2007). Data Analysis Using Regression and Multilevel/Hierarchical Mod
+
+[6] 58 Generative AI Statistics for 2025: Trends & Insights
+    URL: https://www.mend.io/blog/generative-ai-statistics-to-know-in-2025
+    Snippet: 1.   The market is expected to exceed $66.62 billion by the end of 2025, with the U.S. contributing over $23 billionof that total (Statista)
+2.   Long-term forecasts estimate the generative AI market could reach $1.3 trillion by 2032, driven by softw
+
+[7] [PDF] Quantifying the Monetary Effects of AI Adoption in Firms
+    URL: https://sites.nyuad.nyu.edu/jss/wp-content/uploads/2024/10/AI.pdf
+    Snippet: has been above 50% since 2019. Based on their 2022 survey results, about 59% of firms perceive revenue increases powered by AI, with Man-ufacturing, Marketing & Sales, and Risk companies seeing the most benefit. 42% of respondents also report cost de
+
+[8] [PDF] The Rise of AI Pricing: Trends, Driving Forces, and Implications for ...
+    URL: https://www.frbsf.org/wp-content/uploads/wp2024-33.pdf
+    Snippet: We do not include 2024Q1 for potential seasonality. ??,?1 includes a set of controls, including the share of AI jobs, the share of pricing jobs, and firm balance sheet characteristics in ?1 that determine AI pricing adoption from Section 3 (size, TFP
+
+[9] [PDF] The Headless Firm: How AI Reshapes Enterprise Boundaries - arXiv
+    URL: https://arxiv.org/pdf/2602.21401
+    Snippet: 3.1 Transaction-cost theory Coase?s theory of the firm explains vertical integration as a response to the costs of using markets (discovering prices, negotiating contracts, and enforcing agreements) . If AI agents reduce these costs, then market-base
+
+[10] AI Adoption in 2024: 74% of Companies Struggle to Achieve and ...
+    URL: https://www.bcg.com/press/24october2024-ai-adoption-in-2024-74-of-companies-struggle-to-achieve-and-scale-value
+    Snippet: Press Release October 24, 2024 
+
+Image 50
+
+New BCG Research on AI Adoption Identifies Fintech, Software, and Banking as the Sectors with the Highest Concentration of AI Leaders
+
+BOSTON? After years of investing, hiring talent, and launching pilots in
+
+[11] Artificial intelligence adoption in a professional service industry: A multiple case study - ScienceDirect
+    URL: https://www.sciencedirect.com/science/article/pii/S0040162524000477
+    Snippet: Skip to article
+
+Elsevier logo
+
+My account
+
+Sign in
+
+ View PDF
+
+Elsevier
+
+## Technological Forecasting and Social Change
+
+Volume 201, April 2024, 123251
+
+Technological Forecasting and Social Change
+
+# Artificial intelligence adoption in a professiona
+
+[12] [PDF] The Adoption of Artificial Intelligence in Firms | OECD
+    URL: https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-adoption-of-artificial-intelligence-in-firms_8fab986b/f9ef33c3-en.pdf
+    Snippet: 61 -63. 
+
+Source: Rammer, C., D. Czarnitzki, and G.P. Fern?ndez, ?Artificial Intelligence and Industrial Innovation: Evidence from Firm -Level Data (2021)?, 
+
+ ; Destatis, ?IKT -Indikatoren f?r Unternehmen: Deutschland, Jahre, Wirtschaftszweige (ICT 
+
+[13] Competitive Advantage in the Age of AI
+    URL: https://cmr.berkeley.edu/2024/10/competitive-advantage-in-the-age-of-ai
+    Snippet: When it comes to generative AI, companies need to get many things right at the same time?unlock unstructured data, select the right models, build out their IT architecture, reskill their people, apply domain expertise, to name just a few. And they wi
+
+[14] Gen AI Scales for Advantage in 2025 | The Hackett Group®
+    URL: https://www.thehackettgroup.com/insights/gen-ai-accelerates-how-businesses-are-scaling-ai-for-competitive-advantage-in-2025
+    Snippet: Skip to content
+
+The Hackett Group? Launches XT? and AIXelerator? to Complete Full Suite of Gen AI-Assisted Platforms
+
+Read More
+
+The Hackett Group?
+
+Submit RFP
+
+Contact Us
+
+Home ? Insights ? Gen AI Accelerates: How Businesses Are Scaling AI for Comp
+
+[15] Generative AI and Competitive Advantage: Where the Real Moat Is (and Isn't)
+    URL: https://azati.ai/blog/generative-ai-competitive-advantage-real-moat
+    Snippet: AI for BFSI
+ Managed AI
+ Portfolio
+
+Generative AI and Competitive Advantage: Where the Real Moat Is (and Isn't)
+
+Back to blog
+
+February 02, 2026
+
+# Generative AI and Competitive Advantage: Where the Real Moat Is (and Isn't)
+
+AI/ML Business Strategy
+
+
+
+[16] How Generative AI is redefining competitive analysis - Flipflow Blog
+    URL: https://www.flipflow.io/en/blog-en/generative-ai-redefining-competitive-analysis
+    Snippet: Trends in AI adoption and generative AI
+
+In retail, more than 85% of companies are already using or piloting generative AI applications, from predictive analysis to automatic content generation (NVIDIA, 2025). This mass adoption makes generative AI a
+
+[17] AI Transformation: A Complete Strategy Guide for 2025
+    URL: https://www.databricks.com/blog/ai-transformation-complete-strategy-guide-2025
+    Snippet: ### Leveraging Generative AI Strategically
+
+The explosion of gen AI creates opportunities and risks of chasing the cool factor. Successful organizations focus on use cases driving genuine business value rather than deploying everywhere.
+
+Start by ide
+
+[18] Generative AI in 2024: A Strategic Guide | GenAI | Cprime
+    URL: https://www.cprime.com/blog/generative-ai-in-2024-a-strategic-guide-for-global-enterprises
+    Snippet: Deloitte?s survey echoes this sentiment, with 79% of respondents expecting generative AI to transform their organizations within three years. The focus is now on achieving practical benefits today while preparing for more innovative and transformativ
+
+[19] Vibe Coding: A Guide for Startups and Founders - J.P. Morgan
+    URL: https://www.jpmorgan.com/insights/technology/artificial-intelligence/vibe-coding-a-guide-for-startups-and-founders
+    Snippet: # Vibe Coding: A Guide for Startups and Founders. We and our partners use cookies and other tools for advertising, to help stop fraud, and for other purposes. By using this site, you agree to how your information is used as outlined in our Privacy Po
+
+[20] Vibe Coding Market Intelligence | Future Growth & Strategic Insights 2025–2032
+    URL: https://www.congruencemarketinsights.com/report/vibe-coding-market
+    Snippet: # Vibe Coding Market Size, Trends, Share, Growth, and Opportunity Forecast, 2025 ? 2032 Global Industry Analysis By Type (Single-Agent Systems, Orchestrated Multi-Agent Systems, Composite / Hybrid Agents, Self-Healing (Autonomous Repair) Agents, and 
+
+[21] Vibe Coding in 2025: A Guide to AI-Augmented Development Workflows
+    URL: https://plausiblefutures.substack.com/p/vibe-coding-in-2025-a-technical-guide
+    Snippet: # Vibe Coding in 2025: A Guide to AI-Augmented Development Workflows. How to regulate AI-factories in space? The paradigm of software development is undergoing a fundamental shift. The integration of AI is no longer a novelty but a core component of 
+
+[22] Vibe Coding | $0 to $2,000,000,000 in revenue | Facebook
+    URL: https://www.facebook.com/groups/vibecodingai/posts/950789690888540
+    Snippet: # Vibe Coding | $0 to $2,000,000,000 in revenue | Facebook. AI coding tool reaches $2b revenue. Summarized by AI from the post below. ## Vibe Coding ?. $0 to $2,000,000,000 in revenue. This is Cursor, right now, in 2026. The AI coding tool just hit $
+
+[23] Vibe Coding Trends You Can't Ignore in 2025 | by Bob Hutchins
+    URL: https://bobhutchins.medium.com/vibe-coding-trends-you-cant-ignore-in-2025-22e9f537824a
+    Snippet: UX Tigers comments that vibe coding changes the software development process by making interactions between developers and AI the central task. To thrive as vibe coding advances, developers need to cultivate skills that complement AI. _By 2027, it?s 
+
+[24] Unveiling the strategic resource dimension: A bibliometric and systematic review of the Resource-Based View and its application to corporate governance - ScienceDirect
+    URL: https://www.sciencedirect.com/science/article/abs/pii/S1047831024000257
+    Snippet: The Resource-Based View (RBV) has gained prominence in the field of strategic management research over the last few decades and is becoming more and more well-liked among academics (Barney et al., 2021; Han et al., 2023; Helfat et al., 2023; Kim & Ma
+
+[25] Resource-Based View (RBV) | Business and Management | Research Starters | EBSCO Research
+    URL: https://www.ebsco.com/research-starters/business-and-management/resource-based-view-rbv
+    Snippet: To work toward competitive advantage, a company typically must have resources that are valuable, rare, inimitable, and organized (VRIO). Valuable resources increase differentiation and decrease production costs, thereby augmenting their value to cust
+
+[26] (PDF) Resource Based View (RBV) of Competitive Advantage
+    URL: https://www.academia.edu/74691383/Resource_Based_View_RBV_of_Competitive_Advantage
+    Snippet: ## Key takeaways sparkles AI
+
+1. RBV emphasizes internal resources and capabilities as the foundation for sustainable competitive advantage.
+2. Competitive advantage arises from resource heterogeneity and resource immobility among firms.
+3. Valuable 
+
+[27] [PDF] ARTIFICIAL INTELLIGENCE IN STRATEGIC MANAGEMENT
+    URL: https://epub.jku.at/download/pdf/11968053.pdf
+    Snippet: and rare resources within an organization may be sources of long-term competitive advantage only if businesses that lack them incur a cost disadvantage in acquiring or growing them as compared to those that possess these resources. We refer to these 
+
+[28] 50400.pdf
+    URL: https://www.ijfmr.com/papers/2025/4/50400.pdf
+    Snippet: also proposes a new, integrated theoretical model. This study combines the Resource -Based View (RBV) 
+
+with Dynamic Capabilities theory to explain the strategic anatomy of AI -driven advantage. The study 
+
+suggest s a causal framework that shows how
+
+[29] AI in 2024: Winners, Losers, and the Next Frontiers in the Stock Market - Middleton Private Capital
+    URL: https://www.middletonprivatecapital.co.uk/ai-in-2024-winners-losers-and-the-next-frontiers-in-the-stock-market
+    Snippet: The second half of 2024 in particular has seen the rise of AI-focused software firms. Companies like Palantir, AppLovin, Salesforce and Oracle have gained significantly. These companies leverage AI to enhance data analytics, automate customer relatio
+
+[30] Artificial Intelligence (AI) Software Market Size: 2024 to 2030
+    URL: https://www.abiresearch.com/news-resources/chart-data/report-artificial-intelligence-market-size-global
+    Snippet: Retail and e-commerce are forecast to account for 33% of the enterprise generative AI market by 2030. Generative AI growth drivers include visual search tools for customers, enhanced chatbots, summarizing product listing pages, automated website opti
+
+[31] Generative AI Trends for 2024 and Onward | 8allocate
+    URL: https://8allocate.com/blog/generative-ai-trends-for-2024-and-onward
+    Snippet: Companies that will focus on improving their foundational AI capabilities before launching all efforts into gen AI solutions deployment will emerge as winners in the long term. Likewise, new market entrants that will invest in fine-tuning their own m
+
+[32] 2024: The State of Generative AI in the Enterprise | Menlo Ventures
+    URL: https://menlovc.com/2024-the-state-of-generative-ai-in-the-enterprise
+    Snippet: Rather than relying on a single provider, enterprises have adopted a pragmatic, multi-model approach. Our research shows organizations typically deploy three or more foundation models in their AI stacks, routing to different models depending on the u
+
+[33] How AI and Generative AI Are Transforming Enterprise Operations in 2024 | Windows Forum
+    URL: https://windowsforum.com/threads/how-ai-and-generative-ai-are-transforming-enterprise-operations-in-2024.364371
+    Snippet: However, the landscape in 2024 demonstrates significant AI traction outside the tech sector as well. Financial services, traditionally conservative in technology investment, now see 40% usage of AI in both IT and service operations?a finding echoed b
+
+[34] AI-driven layoffs: Top companies making workforce reductions in 2024
+    URL: https://anz.peoplemattersglobal.com/article/hr-technology/top-companies-cutting-jobs-due-to-ai-a-2024-overview-42399
+    Snippet: # AI-driven layoffs: Top companies making workforce reductions in 2024. While some companies are using AI to enhance productivity and create new opportunities, others are replacing human labor with automated systems. This trend is likely to persist, 
+
+[35] Tech company layoffs: The post-pandemic correction meets AI realignment
+    URL: https://www.informationweek.com/it-leadership/tech-company-layoffs-the-covid-tech-bubble-bursts-sep-14
+    Snippet: [Amazon](https://www.aboutamazon.com/news/company-news/amazon-workforce-reduction) announced company-wide layoffs of [14,000 corporate employees.](https://www.cnbc.com/2025/10/28/amazon-layoffs-corporate-workers-ai.html) However, as many as 30,000 co
+
+[36] Tech companies aren't just talking about AI anymore… they're using ...
+    URL: https://www.instagram.com/reel/DWrf4-7CNMT
+    Snippet: Over 85,000 tech workers have been laid off in Q1 2026 alone. That's nearly 1,000 people losing their jobs every single day. And now CEOs are
+
+[37] Tech Layoffs Surpassing 2025 Levels. The Real Reason Companies Are Slashing Headcount.<!-- --> - Barron's
+    URL: https://www.barrons.com/articles/meta-layoffs-tech-ai-57599f01
+    Snippet: This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800
+
+[38] Giant tech companies cut approx 180,000 jobs as AI reshapes the ...
+    URL: https://www.reddit.com/r/cscareerquestions/comments/1p94il2/giant_tech_companies_cut_approx_180000_jobs_as_ai
+    Snippet: The cuts, which have accelerated through November, are affecting roles from middle management to customer support across Microsoft, Amazon,
+

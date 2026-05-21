@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datos intermedios de búsqueda de literatura (regenerables)
+data/processed/lit_search_*.json
+
+# Credenciales y configuración local
+.env
+*.env
+secrets.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Artefactos de debugging
+pd.DataFrame
+*.DataFrame
+
+# Configuración interna del asistente IA
+.agents/
+skills-lock.json
+
+# Archivos temporales de verificación y scripts de debugging
+_check_*.py
+_temp_*
+scripts/check_html.py
+scripts/fix_*.py
+scripts/update_html*.py
+scripts/update_thesis*.py
+scripts/run_regressions*.py
+scripts/regenerate_figures*.py
+scripts/embed_figures.py
+scripts/robustness_*.py
+scripts/fix_*.py
+
+# Archivos de salida intermedios
+output/figures_b64.json
+output/search*.txt

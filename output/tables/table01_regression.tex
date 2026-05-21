@@ -1,0 +1,22 @@
+\begin{table}[h]
+\centering
+\caption{Panel FE: Retornos anuales y AI Intensity}
+\label{tab:main_regression}
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{2}{c}{(1) Base} & \multicolumn{2}{c}{(2) Completo} & \multicolumn{2}{c}{(3) Post-2022} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Variable & Coef & SE & Coef & SE & Coef & SE \\
+\midrule
+AI Intensity & 0.286 & (0.232) & 0.664* & (0.347) & 0.224 & (0.484) \\
+Tech Debt (wins.p95) & — &  & -0.807 & (0.543) & -0.262 & (0.748) \\
+log(Revenues) & — &  & -16.535 & (12.471) & 16.256 & (20.030) \\
+\midrule
+FE empresa & Sí & & Sí & & Sí & \\
+FE año & Sí & & Sí & & Sí & \\
+N & 437 & & 180 & & 109 & \\
+$R^2$ within & 0.004 & & 0.045 & & 0.014 & \\
+\bottomrule
+\end{tabular}
+\footnotesize{SE robustos (Arellano). *** p<0.01, ** p<0.05, * p<0.10.}
+\end{table}
